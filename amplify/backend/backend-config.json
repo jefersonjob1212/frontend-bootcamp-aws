@@ -1,0 +1,11 @@
+{
+  "api": {},
+  "auth": {
+    "frontendapp51d60963": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
