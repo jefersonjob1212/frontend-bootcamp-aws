@@ -1,11 +1,17 @@
 {
-  "api": {},
   "auth": {
-    "frontendapp51d60963": {
+    "frontendbootcampaws0e17b89d": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
     }
   }
 }
